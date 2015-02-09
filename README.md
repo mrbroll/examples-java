@@ -7,3 +7,7 @@ Each directory in this repo is a different project. I'm a pretty big gradle fan,
     ./gradlew build
 
 I don't use an IDE. If you do, you might have to perform some additional setup, but I think gradle plays nicely with IntelliJ and Eclipse either OOB or, at most, with a plugin.
+
+**Projects:**
+
+- [marvin](/marvin)
