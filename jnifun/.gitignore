@@ -1,0 +1,4 @@
+*.jnilib
+*.o
+*.class
+
