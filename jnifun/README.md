@@ -25,3 +25,18 @@ To run the java code:
 
     java Sample1
 
+###Sample2
+
+Calling java from c++
+
+To compile java class:
+
+    javac Sample2.java
+
+To compile and link c++ executable
+
+OSX:
+
+    clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/include/darwin -L/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/server -o Sample2 Sample2.cc -ljvm
+
+
